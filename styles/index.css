@@ -1,3 +1,118 @@
+* {
+	/* margin: 0; */
+}
+
+body {
+	/* background-color: gray; */
+	margin: 0;
+}
+
+.main_header {
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background: linear-gradient(243.43deg, #7e5aff 16.9%, #55b7ff 83.27%);
+	/* opacity: 0.06; */
+}
+
+.layer_header {
+	background-image: url(../images/Mask\ Group.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.nav {
+}
+
+.fa-circle {
+	color: #ffffff;
+	margin-left: 4em;
+}
+.nav,
+li {
+	display: inline-block;
+}
+
+.nav,
+a {
+	color: #ffffff;
+}
+
+.main_nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 .nav_logo {
-	background-color: blue;
+}
+
+.social_links {
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+	/* opacity: 0.4; */
+	text-align: center;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	font-size: 15px;
+}
+
+.slick-slider {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.header_title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 98px;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+}
+
+.header_text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.3em;
+	color: #ffffff;
+}
+
+.btn_header {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	background-color: transparent;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	margin-top: 10em;
+}
+
+.fa-angle-down {
+	font-size: 15px;
+	line-height: 17px;
+	letter-spacing: 0.3em;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	color: #ffffff;
 }
