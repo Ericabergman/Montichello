@@ -1,9 +1,9 @@
-.main_header {
+header {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background: linear-gradient(243.43deg, #7e5aff 16.9%, #55b7ff 83.27%);
-	/* opacity: 0.06; */
+	min-height: 800px;
 }
 
 .layer_header {
@@ -11,7 +11,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	/* height: 100vh; */
+	min-height: 800px;
 }
 
 .nav {
@@ -56,7 +56,6 @@ a {
 .fa-facebook-f,
 .fa-twitter,
 .fa-instagram {
-	/* opacity: 0.4; */
 	text-align: center;
 	border: 1px solid #ffffff;
 	box-sizing: border-box;
@@ -69,9 +68,6 @@ a {
 
 .slick-slider {
 	text-align: center;
-}
-
-.header-container .slider {
 }
 
 .header_title {
@@ -167,8 +163,8 @@ a {
 	height: 470px;
 }
 
-.project_1_info {
-}
+/* .project_1_info { */
+/* } */
 
 .project_rubric {
 	width: 147px;
@@ -316,7 +312,7 @@ a {
 	margin-top: 3em;
 }
 
-/* project 2  edns*/
+/* project 2  ends*/
 /* section project end*/
 
 /* section news */
@@ -475,19 +471,14 @@ a {
 	color: #55b7ff;
 }
 
-/* ---------- */
-
 .news_dots {
 	display: flex;
 	justify-content: center;
 	padding: 5em;
 }
 
-/* .fa-circle-dot { */
-/* } */
-
 /* arrows news section*/
-.fa-angle-left {
+.fa-angle-le {
 	border: 1px solid #ffffff;
 	border-radius: 50%;
 	height: 50px;
@@ -512,7 +503,6 @@ a {
 }
 
 /* section news ends */
-/* --------------------------------- */
 /* section gallery */
 
 .gallery {
@@ -532,7 +522,7 @@ a {
 
 .gallery_title {
 	height: 54px;
-	font-family: Montserrat;
+	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: bold;
 	font-size: 44px;
@@ -596,7 +586,6 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	/* height: 150vh; */
 }
 
 .map {
@@ -606,7 +595,6 @@ a {
 	height: 700px;
 	width: 1400px;
 	opacity: 0.9;
-	/* position: relative; */
 	z-index: auto;
 }
 
@@ -628,7 +616,7 @@ a {
 }
 .form_title {
 	height: 54px;
-	font-family: Montserrat;
+	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: bold;
 	font-size: 44px;
@@ -650,6 +638,7 @@ a {
 
 .column_form {
 }
+
 .contact_form {
 	text-align: end;
 }
