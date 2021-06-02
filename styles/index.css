@@ -248,6 +248,7 @@ a {
   box-sizing: border-box;
   width: 190px;
   height: 50px;
+  margin-top: 2em;
 }
 /* project 1 ends */
 
@@ -261,7 +262,11 @@ a {
 }
 
 .project_1_info {
-  margin-left: 2em;
+  margin-right: 3em;
+}
+
+.project_2_info {
+  margin-left: 3em;
 }
 
 .project_2_rubric {
@@ -307,6 +312,7 @@ a {
   box-sizing: border-box;
   width: 190px;
   height: 50px;
+  margin-top: 2em;
 }
 
 .project_2_location {
@@ -331,7 +337,7 @@ a {
   margin-top: 3em;
   width: 630px;
   height: 470px;
-  margin-left: -250px;
+  margin-left: -200px;
 }
 
 .news {
@@ -704,16 +710,13 @@ a {
 
 .footer_container {
   height: 524px;
-  background-image: url(../images/layer-footer.png);
+  background-image: url(./images/layer-footer.png);
   background-position: center;
   background-size: cover;
   background-size: no-repeat;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.footer_credits {
 }
 
 .credit_rights {
